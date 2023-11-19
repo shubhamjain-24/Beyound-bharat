@@ -21,7 +21,7 @@ const MainCarousel = () => {
         <div id="slide">
           <div
             className="c_item"
-            style={{ backgroundImage: 'url("Images/11.png")' }}
+            style={{ backgroundImage: 'url("https://ik.imagekit.io/beyondbc/Images/11.png?updatedAt=1700399769096")' }}
           >
             <div class="image-overlay"></div>
             <div className="content">
@@ -36,7 +36,7 @@ const MainCarousel = () => {
           </div>
           <div
             className="c_item"
-            style={{ backgroundImage: 'url("Images/15.png")' }}
+            style={{ backgroundImage: 'url("https://ik.imagekit.io/beyondbc/Images/15.png?updatedAt=1700399771202")' }}
           >
             {" "}
             <div class="image-overlay"></div>
@@ -58,7 +58,7 @@ const MainCarousel = () => {
           </div>
           <div
             className="c_item"
-            style={{ backgroundImage: 'url("Images/12.png")' }}
+            style={{ backgroundImage: 'url("https://ik.imagekit.io/beyondbc/Images/12.png?updatedAt=1700399766588")' }}
           >
             <div class="image-overlay"></div>
             <div className="content">
@@ -82,7 +82,7 @@ const MainCarousel = () => {
           </div>
           <div
             className="c_item"
-            style={{ backgroundImage: 'url("Images/14.png")' }}
+            style={{ backgroundImage: 'url("https://ik.imagekit.io/beyondbc/Images/14.png?updatedAt=1700399770933")' }}
           >
             <div class="image-overlay"></div>
             <div className="content">
@@ -99,7 +99,7 @@ const MainCarousel = () => {
           </div>
           <div
             className="c_item"
-            style={{ backgroundImage: 'url("Images/13.png")' }}
+            style={{ backgroundImage: 'url("https://ik.imagekit.io/beyondbc/Images/13.png?updatedAt=1700399771205")' }}
           >
             {" "}
             <div class="image-overlay"></div>
