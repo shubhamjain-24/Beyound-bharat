@@ -1,0 +1,121 @@
+.coaching_mainContainer{
+    margin-top: 50px;
+    padding: 20px;
+    background-size: cover;
+}
+.coaching_flexContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+.coaching_flexDiv1{
+    width: 30%;
+    padding: 30px;
+    border-radius: 30px;
+}
+.coaching_textContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.coaching_headtext{
+    font-size: 40px;
+    font-family: var(--font1);
+    color: var(--color1r);
+    font-weight: 600;
+}
+.coaching_subtext{
+    font-size: 18px;
+    font-family: var(--font3);
+    color: black;
+    margin-top: 15px;
+    line-height: 30px;
+}
+
+.coaching_flexDiv2{
+    /* border: 1px solid green; */
+    width: 70%;
+    max-width: 60%;
+    margin-left: 30px;
+    background: url('../../Images//clmain.png');
+    border-radius: 30px;
+}
+
+.coaching_mainCard{
+cursor: pointer;
+height: 400px;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+padding: 20px;
+}
+.coaching_subcard{
+    /* background-color:#da2730; */
+    background-color: rgba(225, 222, 222, 0.818);
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 30px;
+    user-select: none;
+}
+.coaching_imgDiv{
+    background-color: white;
+    border-radius: 50%;
+    width: 70px;
+    height:70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.coachingimg{
+    width: 50px;
+    height: 50px;
+}
+.coaching_upperTextDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 15px;
+    /* background-color: rgba(168, 168, 168, 0.566); */
+    text-align: center;
+}
+.coaching_upperHead{
+    font-family: var(--font1);
+    font-size: 23px;
+    font-weight: 500;
+    color: var(--color2b);
+}
+.coaching_uppersub{
+    font-family: var(--font3);
+    font-size: 15px;
+    font-weight: 400;
+    color: black;
+   margin-top: 10px;
+}
+@media screen and (max-width: 1000px){
+    .coaching_flexContainer{
+        flex-direction: column;
+        width: 100%;
+    }
+    .coaching_flexDiv1,.coaching_flexDiv2{
+        width: 100%;
+        max-width: 80%;
+    }
+    .coaching_mainCard{
+        height: auto;
+    }
+    .coaching_flexDiv2{
+        margin-left: 0;
+    }
+    .coaching_mainContainer{
+        margin-top: 10px;
+    }
+}
+

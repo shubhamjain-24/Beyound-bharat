@@ -1,0 +1,111 @@
+.whyu2_mainContainer {
+    margin-top: 40px;
+    background-color: #022b6d;
+  }
+  .whyu2_flexContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .whyu2_flex1 {
+    flex: 60%;
+    padding: 20px;
+  }
+  .whyu2_textDiv {
+    margin-left: 60px;
+    margin-top: 40px;
+    width: 80%;
+  }
+  .whyu2_headText {
+    font-size: 40px;
+    font-weight: 800;
+    font-family: var(--font2);
+    color: var(--color1r);
+  }
+  .whyu2_subText {
+    font-size: 20px;
+    font-family: var(--font3);
+    color: white;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    /* width: 80%; */
+    margin-top: 10px;
+  }
+  .whyu-subtextarrow {
+    font-size: 16px;
+  }
+  .whyu2_subhead {
+    font-weight: 500;
+  }
+  .whyu2_button {
+    background-color: var(--color1r);
+    color: white;
+    font-family: var(--font1);
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 20px;
+    width: max-content;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  .whyu2_button:hover {
+    background-color: white;
+    color: var(--color1r);
+  }
+  
+  .whyu2_flex2 {
+    flex: 40%;
+    display: flex;
+    align-items: start;
+    /* border: 1px solid red; */
+  }
+  @media screen and (max-width: 1240px) {
+    .whyu2_headText {
+      font-size: 30px;
+    }
+  }
+  @media screen and (max-width: 1000px) {
+    .whyu2_image {
+      width: 80%;
+    }
+    .whyu2_flex2 {
+      align-items: center;
+    }
+    .whyu2_subText {
+      font-size: 16px;
+    }
+  }
+  @media screen and (max-width: 800px) {
+    .whyu2_flexContainer {
+      display: inline-block;
+    }
+    .whyu2_image {
+      width: 50%;
+    }
+    .whyu2_flex2 {
+      align-items: center;
+      justify-content: center;
+      margin-top: 20px;
+    }
+    .whyu2_flex1 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .whyu2_textDiv {
+      margin-left: 0;
+    }
+  }
+  @media screen and (max-width: 700px) {
+      .whyu2_subText{
+          font-size: 16px;
+      }
+      .whyu2_button{
+          font-size: 16px;
+      }
+  }
+  

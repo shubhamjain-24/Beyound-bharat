@@ -1,0 +1,113 @@
+.teste_mainContainer {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color2b);
+  color: white;
+}
+.teste_textContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 40px;
+}
+.teste_headText {
+  font-size: 40px;
+  font-weight: 600;
+  font-family: var(--font1);
+  color: var(--color1r);
+}
+.teste_subText {
+  margin-top: 15px;
+  line-height: 30px;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: var(--font3);
+  color: white;
+  text-align: center;
+  width: 80%;
+}
+.teste_sliderContainer {
+  /* margin-top: 50px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color2b);
+  color: white;
+}
+.teste_crausel {
+  /* border: 1px solid red; */
+  width: 80%;
+  margin-top: 30px;
+  user-select: none;
+}
+
+/* card Container */
+.testeCard_mainContainer {
+  /* border: 1px solid green; */
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 30px;
+}
+.testeCard_box {
+  width: 280px;
+  height: 280px;
+  /* background-color: var(--color1r); */
+  /* clip-path: polygon(0% 0%,100% 5%,100% 70%, 75% 75%,75% 100%,50% 75%,0% 75%); */
+  /* clip-path:polygon(0% 0%,100% 5%,100% 70%, 54% 75%,35% 99%,34% 75%,0% 75%); */
+  clip-path: polygon(
+    0% 0%,
+    100% 5%,
+    100% 70%,
+    49% 75%,
+    35% 85%,
+    38% 75%,
+    0% 75%
+  );
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  background: rgb(218, 39, 47);
+  background: linear-gradient(
+    183deg,
+    rgba(218, 39, 47, 1) 75%,
+    rgba(255, 92, 99, 1) 100%
+  );
+}
+.testeCard_textContainer {
+  width: 80%;
+  margin-top: 25px;
+  line-height: 20px;
+  font-family: var(--font3);
+  font-size: 14px;
+}
+.testecard_infoDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    /* border: 1px solid palegreen; */
+    margin-top: -40px;
+}
+.testeAvatar{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.testecard_nameDiv{
+    margin-left: 20px;
+}
+.testecard_name{
+    font-family: var(--font1);
+    font-size: 20px;
+    line-height: 26px;
+}
+.testecard_uni{
+    font-family: var(--font3);
+    font-size: 16px;
+}

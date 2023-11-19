@@ -1,0 +1,69 @@
+.canada_mainContainer{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+.canada_flexContainer{
+    width: 80%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-end; 
+    /* border: 1px solid red; */
+}
+.canada_flexDiv1{
+    flex: 1;
+    order: 1;
+}
+.canada_headText{
+color: var(--color2b);
+    font-family: var(--font1);
+    font-size: 40px;
+    font-weight: 600;
+}
+.canada_headText2{
+    color: black;
+    font-family: var(--font3);
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.canada_list{
+    color: black;
+    font-family: var(--font3);
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.ul_boldText{
+    font-weight: bold;
+}
+.canada_flexDiv2{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.canadaImage{
+    height: 400px;
+    margin-left: -40px;
+}
+@media screen and (max-width: 1000px){
+    .canada_flexContainer{
+        display: block;
+    }
+    .canada_flexDiv2{
+        margin-top: 40px;
+        margin-left: 0px;
+    }
+    .canadaImage{
+        height: 400px;
+        margin-left: 0px;
+    }
+}
+@media screen and (max-width: 500px){
+    .canadaImage{
+        height: 300px;
+    }
+}

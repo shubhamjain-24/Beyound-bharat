@@ -1,0 +1,73 @@
+.content_mainDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.content_headDiv{
+    width: 95%;
+    border-radius: 20px;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+    background-color: var(--color2b);
+    padding: 30px;
+}
+.content_headText{
+    font-family: var(--font1);
+    color: var(--color1r);
+    font-size: 40px;
+    font-weight: 700;
+}
+.content_subText{
+    margin-top: 10px;
+    font-family: var(--font3);
+    color: white;
+    font-size: 20px;
+}
+.content_CUContainer{
+    /* border: 1px solid green; */
+    width: 80%;
+    padding: 20px;
+}
+.content_flexContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+.canada_flexDiv1{
+    flex: 1;
+}
+.content_border{
+    border-bottom: 3px solid var(--color1r);
+    width: fit-content;
+}
+.content_border2{
+    border-bottom: 3px solid var(--color2b);
+    width: fit-content;
+}
+.canada_flexDiv2{
+    flex: 1;
+}
+@media screen and (max-width: 1000px){
+    .content_flexContainer{
+        display: block;
+    }
+    .canada_flexDiv2{
+        margin-top: 40px;
+        margin-left: 0px;
+    }
+    .canadaImage{
+        height: 400px;
+        margin-left: 0px;
+    }
+}
+@media screen and (max-width: 500px){
+    .canadaImage{
+        height: 300px;
+    }
+}

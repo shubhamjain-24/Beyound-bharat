@@ -1,0 +1,171 @@
+/* YourComponent.css */
+
+.gic_mainContainer {
+    margin-top: 40px;
+    /* background-color: #da272f; */
+    background-image: url('../../Images/gic3.png');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .gic_flexContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    padding: 30px;
+  }
+  
+  .gic_flexDiv1 {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .gic_textContainer {
+    padding: 20px;
+  }
+  
+  .gic_headText {
+    font-family: var(--font1);
+    font-size: 40px;
+    color: var(--color1r);
+    font-weight: 700;
+  }
+  .gic_headText2{
+    margin-bottom: 20px;
+    color: var(--color2b);
+    font-family: var(--font1);
+    font-size: 30px;
+    font-weight: 600;
+  }
+  .gic_subText {
+    margin-top: 10px;
+    font-size: 20px;
+    color: white;
+    font-family: var(--font3);
+    font-weight: 500;
+  }
+  
+  .gic_img {
+    width: 70%;
+  }
+  
+  .gic_flexDiv2 {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .gic_formDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.467);
+    padding: 30px;
+    border-radius: 40px;
+
+  }
+  
+  .gic_form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .gic_input {
+    height: 40px;
+    width: 300px;
+    border-radius: 20px;
+    text-indent: 20px;
+    font-family: var(--font1);
+    border: none;
+    font-size: 16px;
+    margin-top: 8px;
+  }
+  
+  .gic_message_input {
+    height: 70px;
+  }
+  
+  .gic_input::placeholder {
+    font-size: 15px;
+    font-family: var(--font3);
+  }
+  
+  .gic_input:focus {
+    outline: none;
+    border: none;
+  }
+  .gic_button{
+    height: 30px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    border-radius: 13px;
+    font-family: var(--font3);
+    cursor: pointer;
+    color: white;
+    font-weight: 500;
+    background-color: var(--color2b);
+    padding: 5px;
+    border: 1px solid var(--color2b);
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  .gic_button:hover{
+    background-color: transparent;
+    color: var(--color2b);
+    font-weight: bold;
+  }
+  @media screen and (max-width: 1000px){
+    .gic_flexContainer{
+     display: block;   
+    }
+    .gic_headText{
+        font-size: 30px;
+    }
+    .gic_subText{
+        font-size: 20px;
+    }
+  }
+  @media screen and (max-width: 500px){
+    .gic_subText{
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .gic_input{
+        height: 40px;
+        width: 250px;
+    }
+    .gic_headText2{
+        font-size: 28px;
+    }
+  }
+  @media screen and (max-width: 400px){
+    .gic_input{
+        height: 35px;
+        width: 200px;
+    }
+    .gic_headText2{
+        font-size: 24px;
+    }
+    .gic_button{
+        height: 25px;
+        width: 160px;
+    }
+    
+  }
+  @media screen and (max-width: 330px){
+    .gic_input{
+        height: 30px;
+        width: 150px;
+    }
+    
+  }

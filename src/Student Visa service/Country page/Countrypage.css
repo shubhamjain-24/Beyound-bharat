@@ -1,0 +1,20 @@
+.countryPage_MainContainer{
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cp_headText{
+    font-family: var(--font1);
+    color: var(--color2b);
+    font-weight: 600;
+    font-size: 40px;
+    margin-left: 70px;
+    border-bottom: 2px solid var(--color1r);
+}
+@media screen and (max-width: 1000px){
+    .cp_headText{
+        width: 80%;
+        margin-left: 0px;
+    }
+}

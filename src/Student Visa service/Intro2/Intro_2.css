@@ -1,0 +1,32 @@
+.intro2_mainContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.intro2_textContainer{
+    margin-top: 40px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.intro2_headText{
+    font-size: 40px;
+    font-family: var(--font1);
+    color: var(--color1r);
+    font-weight: 600;
+    text-align: center;
+}
+.intro2_subText{
+    font-size: 20px;
+    font-family: var(--font3);
+    color: var(--color2b);
+    font-weight: 400;
+    text-align: center;
+    margin-top: 20px;
+    /* padding-bottom: 30px; */
+    background-color: rgba(224, 224, 224, 0.882);
+    border-radius: 30px;
+    padding: 30px;
+}

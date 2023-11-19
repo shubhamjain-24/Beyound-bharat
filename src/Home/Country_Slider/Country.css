@@ -1,0 +1,97 @@
+.country_mainContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 40px;
+    /* max-width: 100%; */
+  
+}
+.country_textContainer{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    flex-direction: column;
+}
+.country_headText{
+    font-family: var(--font1);
+    color: var(--color2b);
+    font-size: 40px;
+    font-weight: 600;
+}
+.country_subText{
+    font-family: var(--font3);
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 400;
+    margin-top: 20px;
+    line-height: 30px;
+}
+.country_sliderContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid green; */
+    margin-top: 30px;
+}
+.country_sliderSubContainer{
+    width: 80%;
+}
+
+.country_cardContainer{
+    background-color: var(--color1r);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+.country_crausel{
+    width: 90%;
+    /* padding: 10px; */
+    margin-top: 40px;
+    user-select: none;
+    /* border: 1px solid red; */
+}
+.countryCard_mainContainer{
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+.countrycard_img{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    opacity: 0.5;
+}
+.countrycard_textDiv{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 70%;
+}
+.countryCard_tittle{
+    font-family: var(--font1);
+    font-size: 26px;
+    color: var(--color2b);
+    font-weight: 600;
+
+}
+.countryCard_data{
+    font-family: var(--font3);
+    font-size: 17px;
+    color: black;
+    font-weight: 500;
+    text-align: center;
+    background-color: rgba(228, 228, 228, 0.712);
+    padding: 5px;
+    border-radius: 30px;
+}
