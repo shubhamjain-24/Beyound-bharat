@@ -1,7 +1,7 @@
 import React from "react";
 import "./maincarousel.css";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
-
+import { NavLink } from "react-router-dom";
 const MainCarousel = () => {
    const next = () => {
      let container = document.getElementById("slide");
@@ -29,7 +29,9 @@ const MainCarousel = () => {
                 NEXT OPPORTUNITIES TO STUDY OVERSEAS
               </div>
               <div className="main_c_des">upcoming intakes</div>
+              <NavLink className="Navlink" to="/coaching">
               <button>See More</button>
+              </NavLink>
             </div>
           </div>
           <div
@@ -73,7 +75,9 @@ const MainCarousel = () => {
                   JOIN CLASSES FROM ANY PLACE ,ANY TIME
                 </span>
               </div>
+              <NavLink className="Navlink" to="/coaching">
               <button>See More</button>
+              </NavLink>
             </div>
           </div>
           <div
@@ -88,7 +92,9 @@ const MainCarousel = () => {
               <div className="main_c_des">
                 we appreciate your immigration needs
               </div>
+              <NavLink className="Navlink" to="/studentVisa">
               <button>See More</button>
+              </NavLink>
             </div>
           </div>
           <div
@@ -107,7 +113,9 @@ const MainCarousel = () => {
               <div className="main_c_des">
                 <span style={{ color: "#bdbcbc" }}> want to study abroad?</span>
               </div>
+              <NavLink className="Navlink" to="/contactUs">
               <button>See More</button>
+              </NavLink>
             </div>
           </div>
         </div>
