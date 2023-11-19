@@ -21,7 +21,7 @@ const MainCarousel = () => {
         <div id="slide">
           <div
             className="c_item"
-            style={{ backgroundImage: 'url("images/11.png")' }}
+            style={{ backgroundImage: 'url("Images/11.png")' }}
           >
             <div class="image-overlay"></div>
             <div className="content">
@@ -34,7 +34,7 @@ const MainCarousel = () => {
           </div>
           <div
             className="c_item"
-            style={{ backgroundImage: 'url("images/15.png")' }}
+            style={{ backgroundImage: 'url("Images/15.png")' }}
           >
             {" "}
             <div class="image-overlay"></div>
@@ -56,7 +56,7 @@ const MainCarousel = () => {
           </div>
           <div
             className="c_item"
-            style={{ backgroundImage: 'url("images/12.png")' }}
+            style={{ backgroundImage: 'url("Images/12.png")' }}
           >
             <div class="image-overlay"></div>
             <div className="content">
@@ -78,7 +78,7 @@ const MainCarousel = () => {
           </div>
           <div
             className="c_item"
-            style={{ backgroundImage: 'url("images/14.png")' }}
+            style={{ backgroundImage: 'url("Images/14.png")' }}
           >
             <div class="image-overlay"></div>
             <div className="content">
@@ -93,7 +93,7 @@ const MainCarousel = () => {
           </div>
           <div
             className="c_item"
-            style={{ backgroundImage: 'url("images/13.png")' }}
+            style={{ backgroundImage: 'url("Images/13.png")' }}
           >
             {" "}
             <div class="image-overlay"></div>
