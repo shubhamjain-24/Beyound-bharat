@@ -53,7 +53,9 @@ const MainCarousel = () => {
                   A World of opportunities lies ahead
                 </span>
               </div>
+              <NavLink className="Navlink" to="/studyVisa">
               <button>See More</button>
+              </NavLink>
             </div>
           </div>
           <div
