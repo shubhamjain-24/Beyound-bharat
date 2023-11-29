@@ -20,11 +20,10 @@ const Why_us = () => {
               data-aos-easing="ease-in-sine"
               className="whyu_subText whyu1"
             >
-              <span className="whyu-subtextarrow">
-                <AiOutlineSend /> &nbsp;
+              <span style={{marginRight:"10px"}} className="whyu-subtextarrow">
+                <AiOutlineSend /> &nbsp; &nbsp;
               </span>
-              Thousands of Successful Stories : Our track record speaks volumes
-              with a high visa success rate.
+              	Pioneering with AI: We're at the forefront of integrating AI in student visa consultancy. This means you get faster, more accurate, and highly personalized guidance, ensuring your path to studying abroad is as seamless as it is successful.
             </div>
             <div
               data-aos="fade-right"
@@ -32,11 +31,10 @@ const Why_us = () => {
               data-aos-easing="ease-in-sine"
               className="whyu_subText why2"
             >
-              <span className="whyu-subtextarrow">
+              <span style={{marginRight:"10px"}}  className="whyu-subtextarrow">
                 <AiOutlineSend /> &nbsp;
               </span>
-              Customized Care : We believe in a personalized approach for every
-              student's unique path.
+              	Direct University Connections: Our direct tie-ups with universities around the globe translate into quicker admissions and authentic insights about your preferred courses and institutions, giving you a clear edge.
             </div>
             <div
               data-aos="fade-right"
@@ -44,11 +42,43 @@ const Why_us = () => {
               data-aos-easing="ease-in-sine"
               className="whyu_subText wh3s"
             >
-              <span className="whyu-subtextarrow">
+              <span style={{marginRight:"10px"}}  className="whyu-subtextarrow">
                 <AiOutlineSend /> &nbsp;{" "}
               </span>{" "}
-              Global Reach : Our connections span prestigious universities and
-              colleges across the globe.
+              	Student-Centric Approach: Your ambitions are at the heart of everything we do. We prioritize your needs and career goals, offering genuine, tailored advice that's aligned with your best interests.
+            </div>
+            <div
+              data-aos="fade-right"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine"
+              className="whyu_subText wh3s"
+            >
+              <span style={{marginRight:"10px"}}  className="whyu-subtextarrow">
+                <AiOutlineSend /> &nbsp;{" "}
+              </span>{" "}
+              Proven Expertise: With over five years of experience in career counseling and SOP drafting, our expertise is not just in guiding you but in crafting your story in a way that resonates with admission committees.
+            </div>
+            <div
+              data-aos="fade-right"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine"
+              className="whyu_subText wh3s"
+            >
+              <span style={{marginRight:"10px"}}  className="whyu-subtextarrow">
+                <AiOutlineSend /> &nbsp;{" "}
+              </span>{" "}
+              Comprehensive Service Spectrum: From IELTS and Duolingo coaching to visa support and post-application assistance, our end-to-end services ensure you're well-equipped at every step of your educational journey.
+            </div>
+            <div
+              data-aos="fade-right"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine"
+              className="whyu_subText wh3s"
+            >
+              <span style={{marginRight:"10px"}}  className="whyu-subtextarrow">
+                <AiOutlineSend /> &nbsp;{" "}
+              </span>{" "}
+              Commitment to Transparency and Efficiency: Our processes are clear, straightforward, and designed for your convenience. We value your trust and strive to maintain transparency in all our interactions.
             </div>
             <NavLink className="Navlink" to="/contactUs">
             <div

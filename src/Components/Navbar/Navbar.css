@@ -1,12 +1,17 @@
 .navbars {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
   display: flex;
   justify-content: center;
   width: 100%;
   background-color: rgb(255, 255, 255);
-  height: 100px;
+  height: 120px;
   align-items: center;
   z-index: 4;
-  position: relative;
+  /* Add the following line to add a box shadow */
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .navbar-child {
@@ -19,7 +24,7 @@
 }
 
 .navv_logo {
-  width: 80px;
+  width: 300px;
   height: 80px;
   /* border: 1px solid green; */
   display: flex;
@@ -28,13 +33,35 @@
 }
 
 .navv_logo_img {
-  width: 80px;
-  height: 80px;
+  width: 100px;
+  height: 100px;
+  margin-right: 30px;
 }
 
 .navs-logoImg {
   width: 80px;
   height: 80px;
+}
+.logo_textDiv{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.logo_text{
+  /* margin-bottom: 5px; */
+  background-color: var(--color2b);
+  color: white;
+  padding: 6px;
+  border-radius: 10px;
+  font-family: var(--font2);
+  font-weight: 500;
+}
+.logo_text2{
+  color: var(--color1r);
+  font-family: var(--font2);
+  font-weight: 800;
+  font-size: 20px;
 }
 
 .navbar-ul {
@@ -84,7 +111,7 @@
   width: 100%;
 }
 
-.navs-dropdown {
+/* .navs-dropdown {
   position: absolute;
   width: 104px;
   height: 52px;
@@ -94,9 +121,14 @@
   position: absolute;
   background-color: #2e77eb;
   width: 220px;
-  top: 100%; /* Adjusted top value */
+  top: 100%; 
   display: none;
 }
+
+.navbar-li {
+  position: relative;
+}
+
 
 .drop-ul {
   padding: 20px;
@@ -111,8 +143,48 @@
   list-style: none;
   margin-top: 17px;
   color: white;
+} */
+.navbar-li {
+  position: relative;
 }
 
+.navs-dropdown {
+  position: absolute;
+  top: 105%;
+  left: 0;
+  width: 100px;
+  background-color: #2e77eb;
+  display: none;
+  padding: 10px; 
+  border-radius: 5px; 
+}
+
+.navbar-li:hover .navs-dropdown {
+  display: block;
+}
+
+.drop-ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.drop-li {
+  margin: 10px 0;
+  padding: 4px;
+padding-left:10px ;
+}
+
+.drop-li a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+}
+
+.drop-li:hover {
+  background-color: #1a5bbf; 
+  border-radius: 10px;
+}
 .navs-services:hover .navs-dropMenu {
   display: block;
 }
@@ -133,7 +205,7 @@
 
 .drop-li:hover {
   color: rgb(221, 217, 217);
-  transition: all 0.3s ease-in-out;
+  transition: all 0.1s ease-in-out;
 }
 
 .Navlink {

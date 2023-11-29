@@ -11,6 +11,7 @@ import Testemonial from './Testemonials/Testemonial'
 import Navbar from '../Components/Navbar/Navbar'
 import Footer from '../Components/Footer/Footer'
 import MainCarousel from './Main Component/Main_Carousel'
+import WhatsAppButton from '../Components/Whatsapp button/WhatsAppButton'
 
 const Home = () => {
   return (
@@ -30,6 +31,7 @@ const Home = () => {
    <Testemonial/>
    <Country/>
    <Coaching/>
+   <WhatsAppButton/>
    <div style={{marginTop:"-20px"}}>
 
    <Footer/>

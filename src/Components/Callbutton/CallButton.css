@@ -1,0 +1,35 @@
+/* CallButton.css */
+
+.call-button {
+    position: fixed;
+    bottom: 100px; /* Adjust this value to your preference */
+    right: 70px; /* Adjust this value to your preference */
+    background-color: #34B7F1; /* You can change the background color */
+    border-radius: 50%;
+    padding: 15px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .call-button:hover {
+    transform: scale(1.1); /* Adjust the scaling factor as needed */
+  }
+  
+  .call-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff; /* You can change the icon color */
+    font-size: 24px;
+  }
+  
+  .visible {
+    display: block;
+  }
+  
+  /* Hide the button when not visible */
+  .call-button:not(.visible) {
+    display: none;
+  }
+  

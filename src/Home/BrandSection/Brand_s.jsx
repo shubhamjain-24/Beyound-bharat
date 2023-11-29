@@ -18,12 +18,7 @@ const Brand_s = () => {
             <div className="brand_headText">Who We Are?</div>
 
             <div className="brand_subText">
-              Embark on an academic journey with Beyond Bharat Consultancy,
-              where we offer a guiding light to global education.
-              <br />
-              Our 5+ years of expertise is in transforming your study abroad
-              aspirations into reality with comprehensive, personalized
-              guidance, and support.
+            Welcome to Beyond Bharat Consultancy, the first AI-powered student visa consultancy in India, revolutionizing study abroad journeys! Nestled in the heart of Surat City, we extend our innovative services across India, offering a blend of technology-driven counsel and personalized assistance. Our expertise lies in transforming aspirations into reality for students seeking education in UK, USA, Europe, Canada, and Australia. With direct university tie-ups, we ensure swift, seamless admissions, setting new benchmarks in transparency and efficiency. Our dedication is student-focused, prioritizing your career prospects above all. Backed by over five years of experience in career counseling and SOP crafting, we're not just consultants; we're your gateway to global education
             </div>
           </div>
         </div>
