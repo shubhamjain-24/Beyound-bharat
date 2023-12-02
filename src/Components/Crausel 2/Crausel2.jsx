@@ -1,6 +1,7 @@
 import React from "react";
 import "./Crausel2.css";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
+import { NavLink } from "react-router-dom";
 
 const Crausel2 = () => {
    const next = () => {
@@ -29,7 +30,9 @@ const Crausel2 = () => {
                 NEXT OPPORTUNITIES TO STUDY OVERSEAS
               </div>
               <div className="main_c_des">upcoming intakes</div>
+              <NavLink className="Navlink" to="/aboutUs">
               <button>See More</button>
+              </NavLink>
             </div>
             <div className="c_text_middle_design2">
              <p className="text_border">Study <br /> Overseas</p> </div>
@@ -55,7 +58,9 @@ const Crausel2 = () => {
                   A World of opportunities lies ahead
                 </span>
               </div>
+              <NavLink className="Navlink" to="/studentVisa">
               <button>See More</button>
+              </NavLink>
               <div className="flag_button_container">
                 <button className="flag_button" id="flag1">CN</button>
                 <button className="flag_button" id="flag2">USA</button>
@@ -87,7 +92,10 @@ const Crausel2 = () => {
                   JOIN CLASSES FROM ANY PLACE ,ANY TIME
                 </span>
               </div>
+              <NavLink className="Navlink" to="/coaching">
               <button>See More</button>
+              </NavLink>
+              
             
             </div>
             <div className="c_text_middle_design2">
@@ -124,7 +132,9 @@ const Crausel2 = () => {
               <div className="main_c_des">
                 <span style={{ color: "#bdbcbc" }}> want to study abroad?</span>
               </div>
-              <button>See More</button>
+              <NavLink className="Navlink" to="/contactUs">
+              <button >See More</button>
+              </NavLink>
             </div>
               <div className="c_text_middle_design2">
              <p className="text_border">Perfect <br /> Consultants</p> </div>

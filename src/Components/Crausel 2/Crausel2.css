@@ -160,7 +160,9 @@
 }
 .c_item button:hover{
   transform: translate3d(50px, 100px, 20px);
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  
+  background-color: black;
+  color: white;
 
 }
 #next{
