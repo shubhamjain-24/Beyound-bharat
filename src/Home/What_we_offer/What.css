@@ -23,7 +23,7 @@
   }
   
   .what_grid1{
-    /* border: 1px solid red; */
+    /* border: 1px solid green; */
     padding: 20px;
   }
   .what_card1{
@@ -99,9 +99,35 @@
       font-size: 30px;
     }
   }
-  @media screen and (max-width: 600px){
+  /* @media screen and (max-width: 600px){
     .what_gridContainer{
       width: 100%;
+    }
+  } */
+  @media screen and (max-width: 600px){
+    
+    .what_gridContainer{
+     
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 90%;
+      flex-direction: column;
+    }
+    .what_grid1{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+    .what_card_subtext{
+      font-size: 13px;
+    }
+    .what_card1{
+      width: 100%;
+    }
+    .what_cardText1{
+      font-size: 14px;
     }
   }
   

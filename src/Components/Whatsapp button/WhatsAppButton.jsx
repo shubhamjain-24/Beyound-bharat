@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { FaWhatsapp } from 'react-icons/fa';
 import './WhatsAppButton.css';
+import logo from '../../Images/whatsapplogo.png'
 
 const WhatsAppButton = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -10,7 +11,7 @@ const WhatsAppButton = () => {
       setIsVisible(true);
       setTimeout(() => {
         setIsVisible(false);
-      }, 10000); 
+      }, 5000); 
     }, 3000); 
 
     return () => clearInterval(intervalId);
@@ -25,7 +26,8 @@ const WhatsAppButton = () => {
   return (
     <div className={`whatsapp-button ${isVisible ? 'visible' : ''}`} onClick={redirectToWhatsApp}>
       <div className="whatsapp_icon">
-        <FaWhatsapp />
+        {/* <FaWhatsapp /> */}
+        <img src={logo} alt="" className='whatapplogo' srcset="" />
       </div>
     </div>
   );

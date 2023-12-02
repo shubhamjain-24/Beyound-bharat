@@ -12,6 +12,7 @@ import Navbar from '../Components/Navbar/Navbar'
 import Footer from '../Components/Footer/Footer'
 import MainCarousel from './Main Component/Main_Carousel'
 import WhatsAppButton from '../Components/Whatsapp button/WhatsAppButton'
+import Crausel2 from '../Components/Crausel 2/Crausel2'
 
 const Home = () => {
   return (
@@ -20,7 +21,8 @@ const Home = () => {
    <Navbar/>
   
 
-   <MainCarousel/>
+   {/* <MainCarousel/> */}
+   <Crausel2/>
   
    <Brand_s/>
    <What/>

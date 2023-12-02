@@ -10,7 +10,7 @@ const CallButton = () => {
       setIsVisible(true);
       setTimeout(() => {
         setIsVisible(false);
-      }, 10000); 
+      }, 5000); 
     }, 3000); 
 
     return () => clearInterval(intervalId);

@@ -65,6 +65,11 @@
   /* line-height: 30px; */
   letter-spacing: 1.4px;
 }
+@media screen and (max-width: 1300px){
+.Brand_mainContainer{
+  margin-top: 1000px;
+}
+}
 @media screen and (max-width: 1240px) {
   .brand_textDiv {
     width: 100%;

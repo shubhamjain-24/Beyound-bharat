@@ -1,0 +1,344 @@
+/* .c_body{
+    background-color: #eaeaea;
+    overflow: hidden;
+} */
+.carousel_container{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    background-color:#f5f5f5 ;
+    box-shadow: 0 30px 50px #dbdbdb;
+}
+#slide{
+    width: max-content;
+    margin-top: 50px;
+}
+
+    /* width: 126px;
+    height: 130px;
+    background-position: 88% 50%;
+    display: inline-block;
+    transition: 0.5s;
+    background-size: cover;
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    transform: translate(1%,-5%);
+    border-radius: 137px;
+    box-shadow: 0 30px 50px #505050;
+    /* transform: translate(0,-50%); */
+.c_item{
+    /* width: 200px;
+    height: 300px;
+    background-position: 50% 50%;
+    display: inline-block;
+    transition: 0.5s;
+    background-size: cover;
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    transform: translate(0,-50%);
+    border-radius: 20px;
+    box-shadow: 0 30px 50px #505050; */
+
+/* right wala neeche hai */
+    /* width: 178px;
+    height: 255px;
+    background-position: 88% 50%;
+    display: inline-block;
+    transition: 0.5s;
+    background-size: cover;
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    transform: translate(1%,-5%);
+    border-radius: 20px;
+    box-shadow: 0 30px 50px #505050; */
+
+    /* transform: translate(0,-50%);
+    
+    */
+
+    width: 126px;
+    height: 130px;
+    background-position: 100% 50%;
+
+    display: inline-block;
+    transition: 0.5s;
+    background-size: cover;
+    position: absolute;
+    z-index: 1;
+    /* top: 50%; */
+        top: 69%;
+
+    transform: translate(1%,-5%);
+    border-radius: 137px;
+    box-shadow: 0 30px 50px #505050;
+     /* transform: translate(0,-50%); */
+}
+.c_item:nth-child(1),.c_item:nth-child(2){
+    left: 0;
+    top: 0;
+    transform: translate(0,0);
+    border-radius: 0;
+    width: 100%;
+    height: 120%;
+
+    box-shadow: none;
+}
+.c_item:nth-child(3){
+    left: 40%;
+}
+.c_item:nth-child(4){
+    /* left: calc(40% + 220px); */
+        left: calc(40% + 157px);
+
+}
+.c_item:nth-child(5){
+    /* left: calc(40% + 440px); */
+        left: calc(40% + 307px);
+
+}
+.c_item:nth-child(6){
+    left: calc(50% + 60px);
+    opacity: 0;
+}
+.c_item .content{
+    position: absolute;
+    top: 50%;
+    left: 100px;
+    width: 300px;
+    text-align: left;
+    padding: 0;
+    color: #eee;
+    transform: translate(0,-50%);
+    display: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.c_text_middle_design2{
+    margin-top: 50px;
+    text-align: center;
+    transform: translate(0,-50%);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    opacity: 1;
+    animation: showcontent 1s ease-in-out 1 forwards;
+    color: rgb(255, 255, 255);
+    
+    /* border: 1px solid red; */
+}
+.text_border{
+    -webkit-text-stroke: 0.5px black;
+}
+.c_item:nth-child(2) .content{
+    display: block;
+    z-index: 11111;
+}
+.c_item .main_c_header{
+    font-size: 40px;
+    font-weight: bold;
+    opacity: 1;
+    animation: showcontent 1s ease-in-out 1 forwards;
+}
+.c_item .main_c_des{
+     margin: 20px;
+    margin-left: 0%;
+    opacity: 0;
+    font-size: 16px;
+    animation: showcontent 1s ease-in-out 0.3s forwards;
+
+}
+.c_item button{
+    padding: 10px 20px;
+    border: none;
+  
+    opacity: 0;
+    animation: showcontent 1s ease-in-out 0.6s forwards;
+    cursor: pointer;
+
+}
+.c_item button:hover{
+  transform: translate3d(50px, 100px, 20px);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+#next{
+    margin-left: 640px;
+}
+.flag_button_container{
+    margin-top:5%;
+}
+.flag_button{
+      margin: 2%;
+    border-radius: 63px;
+    height: 57px;
+    width: 56px;
+    color: white;
+    text-align: center;
+}
+
+#flag1{
+   background: url("https://media.istockphoto.com/id/486037941/photo/canada-flag.webp?b=1&s=170667a&w=0&k=20&c=rtJiXsmX2GXeFZZnnyCMXKp5qYvwbKoXt5YZujbEo5o=");
+    background-size: cover;
+}
+#flag2{
+       background: url("https://media.istockphoto.com/id/1507501086/photo/american-wave-flag-background-usa.webp?b=1&s=170667a&w=0&k=20&c=cAPbaRJVUrkvx7-Dl53XMcP1KiE9oFVrRJZMd00Rh-s=");
+    background-size: cover;
+}
+#flag3{
+   background: url("https://media.istockphoto.com/id/1080335700/photo/australian-flag-waving-australian-flag-3d-illustration.webp?b=1&s=170667a&w=0&k=20&c=4E6cN5IvJ_l6LDmA5qsDgg-Ac8Y7tjfeeT6k239Hbmc=");
+    background-size: cover;
+}
+#flag4{
+   background: url("https://media.istockphoto.com/id/994137398/photo/german-flag-symbol-of-germany.jpg?s=1024x1024&w=is&k=20&c=N__MkFi86ttT5sdc5_AkL04SP4qnYqGEpXFh0lXAi_A=");
+    background-size: cover;
+}
+@keyframes showcontent {
+    from{
+        opacity: 0;
+        transform: translate(0,130px);
+        filter: blur(33px);
+    }
+    to{
+       opacity: 1;
+        transform: translate(0,0);
+        filter: blur(0); 
+    }
+}
+.c_buttons{
+    position: absolute;
+    bottom: -20px;
+    right: 340px;
+    width: 60%;
+    z-index: 22;
+    /* width: 100%; */
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.c_buttons button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid #555;
+    transition: 0.5s ;
+    cursor: pointer;
+}
+.c_buttons button:hover{
+    background-color: #10100c;
+    color: white;
+}
+#prev{
+        /* margin-left: 36%; */
+
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    /* Styles for screens with a minimum width of 576px and a maximum width of 767px */
+}
+@media screen and (min-width: 340px) and (max-width: 767px) {
+    .c_item {
+        height: 300px; /* Adjust the height for larger screens */
+        border-radius: 20px; 
+       
+     width: 178px;
+    /* height: 255px; */
+    background-position: 88% 50%;
+    display: inline-block;
+    transition: 0.5s;
+    background-size: cover;
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    transform: translate(1%,-5%);
+    border-radius: 20px;
+    box-shadow: 0 30px 50px #505050; 
+
+  /* transform: translate(0,-50%); */
+    
+  
+        /* filter: grayscale(100%); */
+        transform: translate(-56%,44%);/* Adjust the border radius for larger screens */
+    }
+    .image-overlay{
+      
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Adjust the color and opacity as needed */
+   border-radius: 20px; 
+    }
+
+.c_item:nth-child(1),.c_item:nth-child(2){
+         width: 111%;
+    height: 99%;
+    
+}
+.c_buttons{
+text-align: center;
+left: 80px;
+}
+#next,#prev{
+    margin: 0;
+}
+    .c_item:nth-child(4) {
+        left: calc(10% + 220px);
+    }
+
+    .c_item:nth-child(5) {
+        left: calc(10% + 440px);
+       display: none;
+    }
+    .c_item .content{
+       top: 40%;
+    left: 44px;
+    
+    text-align: center;
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+    .carousel_container {
+        max-width: 768px;
+    }
+   
+}
+
+@media screen and (min-width: 992px) {
+    .carousel_container {
+        max-width: 992px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .carousel_container {
+        max-width: 1200px;
+    }
+}
+@media screen and (max-width: 1300px){
+    .c_buttons{
+        right: 300px;
+    }
+}
+@media screen and (max-width: 1200px){
+
+    .c_buttons{
+        right: 240px;
+    }
+}
+@media screen and (max-width: 1100px){
+
+    .c_buttons{
+        right: 240px;
+        /* justify-content: center; */
+        /* width: 50%; */
+    }
+}

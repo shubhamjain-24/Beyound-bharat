@@ -115,10 +115,13 @@ const Navbar = () => {
             onHide={handleClose}
           >
             <Offcanvas.Header closeButton>
+            <NavLink className="Navlink" to="/">
               <Offcanvas.Title className="phoneviewtittle">
                 {" "}
                 BEYOND BHARAT CONSULTANCY
               </Offcanvas.Title>
+              </NavLink>
+              
             </Offcanvas.Header>
             <Offcanvas.Body>
               <ul className="R_Navigation">

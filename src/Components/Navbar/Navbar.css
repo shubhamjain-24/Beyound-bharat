@@ -5,13 +5,14 @@
   right: 0;
   display: flex;
   justify-content: center;
-  width: 100%;
+  /* width: 100%; */
   background-color: rgb(255, 255, 255);
   height: 120px;
   align-items: center;
-  z-index: 4;
+  z-index: 99999;
   /* Add the following line to add a box shadow */
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  /* border: 1px solid red; */
 }
 
 .navbar-child {
@@ -263,6 +264,27 @@ padding-left:10px ;
   margin: 7px;
   background-color: #675f86;
 }
+@media screen and (max-width: 1100px){
+  .logo_text{
+    font-size: 12px;
+  }
+  .logo_text2{
+    font-size: 16px;
+  }
+  .navbar-li{
+    font-size: 14px;
+  }
+  .navv_logo_img{
+    width: 70px;
+    height: 70px;
+  }
+  .navv_logo{
+    margin-left: -40px;
+  }
+  .navbars{
+    height: 100px;
+  }
+}
 
 @media screen and (max-width: 936px) {
   .R_NavBar-nav {
@@ -277,10 +299,15 @@ padding-left:10px ;
     display: none;
   }
 }
+@media screen and (max-width: 600px){
+  .navbars{
+    /* width: 95%; */
+  }
+}
 
 /* MOBILE VIEW */
 .phoneviewtittle{
-  margin-top: 40px;
+  margin-top: 120px;
   font-family: var(--font1);
   margin-left: 30px;
   font-size: 30px;
