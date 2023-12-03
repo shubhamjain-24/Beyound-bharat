@@ -4,12 +4,12 @@ import { BsArrowRightShort } from 'react-icons/bs';
 const Us_intro = () => {
   return (
     <>
-    <div className="introuk_mainContainer">
-       <div className="introuk_textContainer">
-         <div className="introuk_headText">
+    <div className="introus_mainContainer">
+       <div className="introus_textContainer">
+         <div className="introus_headText">
          Student Visa
          </div>
-         <div className="introuk_seoText">  &nbsp; Home  &nbsp;
+         <div className="introus_seoText">  &nbsp; Home  &nbsp;
           <BsArrowRightShort/>  &nbsp; United States
          </div>
        </div>

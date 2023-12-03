@@ -1,7 +1,5 @@
 import React from 'react'
 import './Uk_intro.css'
-import { FaBloggerB } from "react-icons/fa";
-import { AiOutlineHome } from 'react-icons/ai';
 import { BsArrowRightShort } from 'react-icons/bs';
 const Uk_intro = () => {
   return (

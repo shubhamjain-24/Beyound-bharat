@@ -1,4 +1,4 @@
-.introuk_mainContainer{
+.introus_mainContainer{
     background: url("../../../Images/usaback.png");
     max-width: 100%;
     object-fit: cover;
@@ -8,20 +8,20 @@
     align-items: center;
     justify-content: center;
 }
-.introuk_textContainer{
+.introus_textContainer{
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
-.introuk_headText{
+.introus_headText{
     font-size: 70px;
     color: white;
     font-family: var(--font1);
     font-weight: 800;
 }
-.introuk_seoText{
+.introus_seoText{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -30,18 +30,18 @@
     margin-top: 10px;
 }
 @media screen and (max-width: 500px){
-    .introuk_headText{
+    .introus_headText{
         font-size: 40px;
     }
-    .introuk_seoText{
+    .introus_seoText{
         font-size: 24px;
     }
 }
 @media screen and (max-width: 350px){
-    .introuk_headText{
+    .introus_headText{
         font-size: 30px;
     }
-    .introuk_seoText{
+    .introus_seoText{
         font-size: 20px;
     }
 }
