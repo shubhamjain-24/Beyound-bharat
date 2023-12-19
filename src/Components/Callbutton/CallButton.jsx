@@ -17,7 +17,7 @@ const CallButton = () => {
   }, []);
 
   const makeCall = () => {
-    const phoneNumber = ''; 
+    const phoneNumber = '9510835413'; 
     const callUrl = `tel:${phoneNumber}`;
     window.open(callUrl, '_blank');
   };

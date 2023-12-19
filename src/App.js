@@ -36,10 +36,6 @@ function App() {
     </BrowserRouter>
     <CallButton/>
     <WhatsAppButton/>
-    {/* <Uk/> */}
-    {/* <Us/> */}
-    {/* <Canada/> */}
-    {/* <Germany/> */}
     </>
   );
 }

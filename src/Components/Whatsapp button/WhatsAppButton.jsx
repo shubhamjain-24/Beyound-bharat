@@ -18,7 +18,7 @@ const WhatsAppButton = () => {
   }, []);
 
   const redirectToWhatsApp = () => {
-    const phoneNumber = '7016522535'; // Replace with your actual WhatsApp number
+    const phoneNumber = '9510835413'; // Replace with your actual WhatsApp number
     const whatsappUrl = `https://wa.me/${phoneNumber}`;
     window.open(whatsappUrl, '_blank');
   };
