@@ -43,16 +43,13 @@ const Address = () => {
               <div className="address_sub2textDiv">
                 <div className="address_div2headtext">Address</div>
                 <div className="address_div2subtext">
-                  J-1301 Jolly Residency, <br /> near Vijaya Laxmi hall, <br />{" "}
-                  vesu Road - Surat (395007)
+                Address: 613, Laxmi Enclave 2, <br /> Near Gajera Circle, <br /> Katargarm Surat - 395004
                 </div>
               </div>
               <div className="address_sub2textDiv">
                 <div className="address_div2headtext">Call Us*</div>
                 <div className="address_div2subtext">
-                  +91 70165 22535 <br />
-                  +91 70165 22535 <br />
-                  +91 70165 22535 <br />
+                  +91 9510835413 <br />
                 </div>
               </div>
               <div className="address_sub2textDiv">
@@ -73,13 +70,13 @@ const Address = () => {
                   <b>For general inquiries:</b> <br />
                   <a
                     className="address_atag"
-                    href="mailto:your-email@example.com"
+                    href="mailto:beyondbharatconsultancy@gmail.com"
                   >
-                    contact@example.com
+                    beyondbharatconsultancy@gmail.com
                   </a>
                 </div>
                 <br />
-                <div className="address_div2subtext">
+                {/* <div className="address_div2subtext">
                   <b> For application assistance: </b> <br />
                   <a
                     className="address_atag"
@@ -87,9 +84,9 @@ const Address = () => {
                   >
                     applications@example.com
                   </a>
-                </div>
+                </div> */}
                 <br />
-                <div className="address_div2subtext">
+                {/* <div className="address_div2subtext">
                   <b>For documentation services:</b> <br />
                   <a
                     className="address_atag"
@@ -97,32 +94,32 @@ const Address = () => {
                   >
                     documents@example.com
                   </a>
-                </div>
+                </div> */}
               </div>
               <div className="address_sub2textDiv">
                 <div className="address_div2headtext">Social Media</div>
                 <div className="address_div2subtext">
-                  <a
+                  <a target="_blank"
                     className="address_atag"
-                    href="mailto:your-email@example.com"
+                    href="https://www.instagram.com/beyond_bharat_consultancy/?hl=en"
                   >
                     {" "}
-                    <BsInstagram /> Follow us on Instagram
+                    <BsInstagram /> beyond_bharat_consultancy
                   </a>
                   <br />
                   <div
                     style={{ marginTop: "10px" }}
                     className="address_div2subtext"
                   >
-                    <a
+                    <a target="_blank"
                       className="address_atag"
-                      href="mailto:your-email@example.com"
+                      href="/https://www.facebook.com/profile.php?id=61554239017185"
                     >
-                      <AiOutlineFacebook /> Follow us on Facebook
+                      <AiOutlineFacebook /> Beyond Bharat Consultancy
                     </a>
                   </div>
                   <br />
-                  <div
+                  {/* <div
                     style={{ marginTop: "-5px" }}
                     className="address_div2subtext"
                   >
@@ -133,8 +130,8 @@ const Address = () => {
                       <AiOutlineLinkedin /> Follow us on LinkedIn
                     </a>
                     <br />
-                  </div>
-                  <div
+                  </div> */}
+                  {/* <div
                     style={{ marginTop: "10px" }}
                     className="address_div2subtext"
                   >
@@ -145,7 +142,7 @@ const Address = () => {
                       <RiTwitterXLine /> Follow us on Facebook
                     </a>
                     <br />
-                  </div>
+                  </div> */}
                 </div>
               </div>
               <div className="address_sub2textDiv">
@@ -154,7 +151,7 @@ const Address = () => {
                   Consultation
                 </div>
                 <div className="address_div2subtext">
-                  Use our online booking <br /> system on Website URL <br /> to
+                  Use our online booking <br /> system on Website  <br /> to
                   schedule a face-to-face <br /> or virtual appointmentwith{" "}
                   <br /> one of our expert consultants.
                 </div>

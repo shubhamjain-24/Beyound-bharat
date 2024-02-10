@@ -61,13 +61,14 @@
   font-family: var(--font3);
   color: var(--color2b);
   margin-top: 2%;
+  justify-content: center;
   font-size: 20px;
   /* line-height: 30px; */
   letter-spacing: 1.4px;
 }
 @media screen and (max-width: 1300px){
 .Brand_mainContainer{
-  margin-top: 1000px;
+  margin-top: 950px;
 }
 }
 @media screen and (max-width: 1240px) {
@@ -80,6 +81,12 @@
   .brand_subText {
     font-size: 18px;
   }
+}
+@media screen and (max-width: 1050px){
+  .Brand_gridContainer{
+    margin-top: -200px;
+  }
+
 }
 @media screen and (max-width: 1000px) {
  .Brand_gridContainer{

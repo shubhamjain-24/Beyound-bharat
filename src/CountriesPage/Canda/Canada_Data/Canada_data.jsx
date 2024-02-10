@@ -110,55 +110,44 @@ const Canada_data = () => {
         <thead>
           <tr>
             <th>Process Step</th>
-            <th>Detail</th>
-            <th> Timeline</th>
+            <th>What we will Do</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td>Initial Consultation</td>
-            <td>Understand your profile, discuss course and country options with you. </td>
-            <td>Instantly</td>
+            <td>Course and College Shortlisting</td>
+            <td>We will first understand your Profile and based on that, and your interest, we will help you with shortlisting course and college</td>
           </tr>
           <tr>
-            <td>Course and college shortlisting</td>
-            <td>Based on your profile, and interest, we will help you with shortlisting course and college</td>
-            <td>2 hours</td>
+            <td>Document Preparation</td>
+            <td>Compile Transcripts, employment certificate, SOP, LORs, Test Results, and other necessary documents	</td>
           </tr>
           <tr>
-            <td>Preparation for Entrance Exams</td>
-            <td>Depending upon the country and eligibility we provide you coaching for IELTS / PTE / Duolingo</td>
-            <td>2 – 3 Months </td>
+            <td>University / College Application</td>
+            <td>Depending upon your eligibility and profile we apply to 4 – 5 colleges	</td>
+           
           </tr>
           <tr>
-            <td>Document preparation</td>
-            <td>Compile Transcripts, employment certificate, SOP, LORs, Funding</td>
-            <td>15 days - 1 month</td>
+            <td>Admission Letter</td>
+            <td>After all the above processes, you will receive the offer letter.</td>
           </tr>
           <tr>
-            <td>Applying for Colleges / University</td>
-            <td>Depending upon your eligibility and profile we apply to 4 – 5 colleges</td>
-            <td>1 - 2 months</td>
+            <td>ATuition Fees and GIC</td>
+            <td>If Funding is what you seek, then we can help you with loan vendors, currency exchange, fund transfer etc.</td>
           </tr>
           <tr>
-            <td>Tuition Fees and GIC payment </td>
-            <td>We will assist you with loan if required</td>
-            <td>10-15 day</td>
+            <td>Medical  </td>
+            <td>We will help you with appointments and guide you through the entire process</td>
           </tr>
           <tr>
-            <td>Medical </td>
-            <td>We will help you with appointments and guide you through the entire process </td>
-            <td>4-5 days</td>
-          </tr>
-          <tr>
-            <td>Visa Filing</td>
-            <td></td>
-            <td></td>
+            <td>Visa Filing </td>
+            <td>Once all the documents and formalities are done, we will be filing for visa </td>
+            
           </tr>
           <tr>
             <td>Ready to Fly</td>
-            <td>We will help you with flight tickets too.</td>
-            <td></td>
+            <td>We will help you with Flight Tickets and accommodation too. </td>
+           
           </tr>
         </tbody>
       </table>

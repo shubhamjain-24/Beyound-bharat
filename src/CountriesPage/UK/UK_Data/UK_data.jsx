@@ -140,93 +140,74 @@ const UK_data = () => {
               <thead>
                 <tr>
                   <th>Process Step</th>
-                  <th>Detail</th>
-                  <th> Timeline</th>
+                  <th>What we will Do</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
-                  <td>Initial Consultation</td>
+                  <td>Course and College Shortlisting</td>
                   <td>
-                    Understand your profile, discuss course and country options
-                    with you.{" "}
+                    We will first understand your Profile and based on that, and
+                    your interest, we will help you with shortlisting course and
+                    college
                   </td>
-                  <td>Instantly</td>
                 </tr>
                 <tr>
-                  <td>Course and college shortlisting</td>
+                  <td>Document Preparation</td>
                   <td>
-                    Based on your profile, and interest, we will help you with
-                    shortlisting course and college
+                    Compile Transcripts, employment certificate, SOP, LORs, Test
+                    Results, and other necessary documents
                   </td>
-                  <td>2 hours</td>
                 </tr>
                 <tr>
-                  <td>Preparation for Entrance Exams</td>
-                  <td>
-                    Depending upon the country and eligibility we provide you
-                    coaching for IELTS / PTE / Duolingo
-                  </td>
-                  <td>2 – 3 Months </td>
-                </tr>
-                <tr>
-                  <td>Document preparation</td>
-                  <td>
-                    Compile Transcripts, employment certificate, SOP, LORs,
-                    Funding
-                  </td>
-                  <td>15 days - 1 month</td>
-                </tr>
-                <tr>
-                  <td>Applying for Colleges / University</td>
+                  <td>University / College Application</td>
                   <td>
                     Depending upon your eligibility and profile we apply to 4 –
                     5 colleges
                   </td>
-                  <td>1 day</td>
                 </tr>
                 <tr>
-                  <td>Tuition Fees </td>
-                  <td>Fees payment of 1000 Euro</td>
-                  <td>1 day</td>
+                  <td>CAS Interview (Online)</td>
+                  <td>
+                    If you opt for a University / College that has interview
+                    process, we will help you with questions as well as answers.
+                  </td>
                 </tr>
                 <tr>
-                  <td>Medical </td>
+                  <td>Tuition fees</td>
+                  <td>
+                    If Funding is what you seek, then we can help you with loan
+                    vendors, currency exchange, fund transfer etc.
+                  </td>
+                </tr>
+                <tr>
+                  <td>Medical</td>
                   <td>
                     We will help you with appointments and guide you through the
                     entire process
                   </td>
-                  <td>4-5 days</td>
-                </tr>
-                <tr>
-                  <td>Unconditional admission Letter </td>
-                  <td>
-                    Once APS Certificate is made and documents are verified, you
-                    will receive unconditional offer letter{" "}
-                  </td>
-                  <td></td>
                 </tr>
                 <tr>
                   <td>CAS Letter</td>
-                  <td>After all the above processes, you will receive the offer letter. </td>
-                  <td>28 – 30 days</td>
-                </tr>
-                <tr>
-                  <td>OSH</td>
                   <td>
-                  We will assist you by connecting you to the right agencies 
+                    After the due diligence and documentation, you will receive
+                    your CAS letter
                   </td>
-                  <td>1-2 day</td>
                 </tr>
                 <tr>
-                  <td>Visa Filing</td>
-                  <td></td>
+                  <td>Visa Filing </td>
+                  <td>
+                    Once all the documents and formalities are done, we will be
+                    filing for visa
+                  </td>
                   <td></td>
                 </tr>
                 <tr>
                   <td>Ready to Fly</td>
-                  <td>We will help you with flight tickets too.</td>
-                  <td></td>
+                  <td>
+                  We will help you with Flight Tickets and accommodation too. 
+                  </td>
+                  
                 </tr>
               </tbody>
             </table>

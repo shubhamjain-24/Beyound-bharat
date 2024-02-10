@@ -69,7 +69,11 @@ const Crausel2 = () => {
               </div>
             </div>
             <div className="c_text_middle_design2">
-             <p className="text_border">Study <br /> Abroad</p> </div>
+              <NavLink className="Navlink" to="/studentVisa">
+
+             <p className="text_border">Study <br /> Abroad</p>
+              </NavLink>
+              </div>
           </div>
           <div
             className="c_item"
@@ -99,23 +103,12 @@ const Crausel2 = () => {
             
             </div>
             <div className="c_text_middle_design2">
-             <p className="text_border">Online Coaching</p> </div>
+              <NavLink to="/coaching" className="Navlink">
+              <p className="text_border">Online Coaching</p>
+              </NavLink>
+             </div>
           </div>
-          {/* <div
-            className="c_item"
-            style={{ backgroundImage: 'url("images/14.png")' }}
-          >
-            <div class="image-overlay"></div>
-            <div className="content">
-              <div className="main_c_header">
-                Immigrate to Canada, Australia
-              </div>
-              <div className="main_c_des">
-                we appreciate your immigration needs
-              </div>
-              <button>See More</button>
-            </div>
-          </div> */}
+          
           <div
             className="c_item"
             style={{ backgroundImage: 'url("https://ik.imagekit.io/ai3bgppzf/Untitled/Untitled-5.png?updatedAt=1701495840984")' }}
@@ -137,7 +130,10 @@ const Crausel2 = () => {
               </NavLink>
             </div>
               <div className="c_text_middle_design2">
-             <p className="text_border">Perfect <br /> Consultants</p> </div>
+                <NavLink className="Navlink" to="/contactUs">
+             <p className="text_border">Perfect <br /> Consultants</p> 
+                </NavLink>
+             </div>
           </div>
         </div>
         <div className="c_buttons">

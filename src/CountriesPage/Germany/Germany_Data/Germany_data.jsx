@@ -155,75 +155,54 @@ const Germany_data = () => {
         <thead>
           <tr>
             <th>Process Step</th>
-            <th>Detail</th>
-            <th> Timeline</th>
+            <th>What we will Do</th>
           </tr>
         </thead>
         <tbody>
-          <tr>
-            <td>Initial Consultation</td>
-            <td>Understand your profile, discuss course and country options with you. </td>
-            <td>Instantly</td>
-          </tr>
+          
           <tr>
             <td>Course and college shortlisting</td>
-            <td>Based on your profile, and interest, we will help you with shortlisting course and college</td>
-            <td>2 hours</td>
+            <td>We will first understand your Profile and based on that, and your interest, we will help you with shortlisting course and college</td>
           </tr>
           <tr>
-            <td>Preparation for Entrance Exams</td>
-            <td>Depending upon the country and eligibility we provide you coaching for IELTS / PTE / Duolingo</td>
-            <td>2 – 3 Months </td>
+            <td>APS</td>
+            <td>Your degree and transcripts will be verified and equivalency will be mapped with German Degree</td>
           </tr>
           <tr>
             <td>Document preparation</td>
-            <td>Compile Transcripts, employment certificate, SOP, LORs, Funding</td>
-            <td>15 days - 1 month</td>
+            <td>Compile Transcripts, employment certificate, SOP, LORs, Test Results, and other necessary documents	</td>
           </tr>
           <tr>
-            <td>Applying for Colleges / University</td>
+            <td>University / College Application</td>
             <td>Depending upon your eligibility and profile we apply to 4 – 5 colleges</td>
-            <td>1 day</td>
+           
           </tr>
           <tr>
             <td>Admission Letter</td>
-            <td>After all the above processes, you will receive the offer letter.</td>
-            <td>7 – 15 Days</td>
+            <td>Depending upon your eligibility and profile we apply to 4 – 5 colleges	</td>
+         
           </tr>
           <tr>
             <td>Tuition Fees </td>
-            <td>Fees payment of 1000 Euro</td>
-            <td>1 day</td>
+            <td>If Funding is what you seek, then we can help you with loan vendors, currency exchange, fund transfer etc.</td>
           </tr>
           <tr>
             <td>APS certificate </td>
-            <td>Fees payment of 1000 Euro</td>
-            <td>2 – 3 Weeks</td>
+            <td>Within 2 – 3 months, you will be receive the APS Certificate which will ensure that your academic credentials are valid.  </td>
           </tr>
           <tr>
-            <td>Unconditional admission Letter </td>
-            <td>Once APS Certificate is made and documents are verified, you will receive unconditional offer letter </td>
+            <td>Block Account Opening</td>
+            <td>If Funding is what you seek, then we can help you with loan vendors, currency exchange, fund transfer etc.</td>
             <td></td>
-          </tr>
-          <tr>
-            <td>Block Account Opening & Funding</td>
-            <td>We will help you loan if required </td>
-            <td>4 – 5 days</td>
-          </tr>
-          <tr>
-            <td>Visa Document Preparation</td>
-            <td>Offer letter, block account certificate, APS certificate and other documents </td>
-            <td>1 day</td>
           </tr>
           <tr>
             <td>Visa Filing</td>
-            <td>VFS Centre</td>
-            <td></td>
+            <td>Once all the documents and formalities are done, we will be filing for visa</td>
           </tr>
           <tr>
             <td>Ready to Fly</td>
-            <td>We will help you with flight tickets too.</td>
-            <td>Approval takes 30 – 45 days on an average</td>
+            <td>We will help you with Flight Tickets and accommodation too.  </td>
+            
           </tr>
         </tbody>
       </table>
