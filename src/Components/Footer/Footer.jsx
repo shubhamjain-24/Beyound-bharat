@@ -87,7 +87,7 @@ const Footer = () => {
             <div className="footer_div3headText">Contact Info</div>
             <div className="footer_div3subText">
               <HiOutlineLocationMarker className="footer_div2logo" />
-              JAddress: 613, Laxmi Enclave 2, Near Gajera Circle, Katargarm
+              Address: 613, Laxmi Enclave 2, Near Gajera Circle, Katargarm
               Surat - 395004
             </div>
             <div className="footer_div3subText">

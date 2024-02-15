@@ -183,6 +183,11 @@ const Address = () => {
           </div>
         </div>
       </div>
+        <div className="addressmap">
+          <div className="address_mapContainer">
+          <iframe className="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3718.9960557196177!2d72.83657409999999!3d21.232004999999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04f78465ecd9b%3A0x13aa7c8a4e968fb0!2sBeyond%20Bharat%20Consultancy!5e0!3m2!1sen!2sin!4v1707973457145!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
     </>
   );
 };

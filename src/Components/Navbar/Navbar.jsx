@@ -21,7 +21,7 @@ const Navbar = () => {
             <div className="logo_textDiv">
 
             <span className="logo_text">
-              BEYOUND BHARAT
+              BEYOND BHARAT
             </span>
             <span className="logo_text2">
               CONSULTANCY

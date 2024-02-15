@@ -39,7 +39,7 @@ const Crausel2 = () => {
           </div>
           <div
             className="c_item"
-            style={{ backgroundImage: 'url("https://ik.imagekit.io/ai3bgppzf/Untitled/Untitled-6.png?updatedAt=1701495843226 ")' }}
+            style={{ backgroundImage: 'url("https://i.ibb.co/pwMgjZz/imglink.png ")' }}
           >
             {" "}
             <div class="image-overlay"></div>

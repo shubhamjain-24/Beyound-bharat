@@ -152,6 +152,20 @@
     flex: 1;
 }
 
+.addressmap{
+  width: 100%;
+}
+.address_mapContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.map{
+  width: 80%;
+  height: 30%;
+  border: 0;
+}
+
   @media screen and (max-width: 1000px){
     .address_flexContainer{
      display: block;   
